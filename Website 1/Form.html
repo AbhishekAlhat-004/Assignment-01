@@ -1,0 +1,117 @@
+<html>
+<head>
+<title>Create Account</title>
+</head>
+<style>
+
+ul{
+list-style:none;
+float:right;
+margin:0;
+padding:0;
+}
+ul li{
+display:inline-block;
+}
+ul li a{
+text-decoration:none;
+color:#000000;
+margin:20px 5px;
+padding:5px 10px;
+border:2px solid #000000;
+line-height:45px;
+position:relative;
+bottom:10px;
+}
+
+ul li a:hover{
+background-color:#FFF;
+color:#000;
+transition:0.6s ease;
+}
+
+
+body {
+  background-image: url("social.jpg");
+}
+
+
+.one{
+position:relative;
+top:500px;
+    }
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+ 
+</style>
+<body>
+
+         <header>
+         <div class="main">
+         <ul>
+              
+               <li> <a href="Homepage.html">Home</a></li>
+               <li> <a href="Form.html">Create Account</a></li>
+               <li> <a href="stat.html">Statistics</a></li>
+             
+        </ul>
+        </div>
+        </header>
+
+<h1 style="text-align:center;font-weight:bold;position:relative;left:200px;top:20px;">Create Account</h3>
+
+<div class="one">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+     
+    <label for="lname">Passward</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+    <label for="lname">Re-Passward</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="mail">Country</label>
+    <select id="country" name="country">
+      <option value="australia">India</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+
+
+
+
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
